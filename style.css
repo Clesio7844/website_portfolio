@@ -58,10 +58,13 @@ ul{
 
 .nav .logo{
     flex: 1;
+    font-size: 18px;
+    letter-spacing: 0;
 }
 
 .nav .menu{
     flex: 1;
+    font-size: 18px;
 }
 
 .nav .collection{
@@ -78,4 +81,45 @@ ul{
 
 .nav .profile{
     flex: 0;
+}
+
+
+.nav .profile img{
+   background-image: url('./img/photo1.jpg');
+   background-position: 50%;
+   background-size: cover;
+   height: 30px;
+   width: 30px;
+   border-radius: 50%;
+}
+
+.img-wrapper{
+    position: absolute;
+    bottom: 0;
+    left: 180px;
+}
+
+.img-wrapper .karina{
+    background-image: url(./img/photo1.jpg);
+    background-size: cover;
+    height: 550px;
+    width: 1000px;
+}
+
+
+.info {
+    position: absolute;
+    bottom: 0;
+    left: 180px;
+    background: rgba(0, 0, 0, .8);
+}
+
+.info ul li{
+    display: inline-block;
+    padding: 20px 25px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 8px;
+    font-weight: 600;
 }
